@@ -61,6 +61,8 @@ window.Translations['en-us'] = {
   DAPP_DEPOSIT: 'Deposit',
   DAPP_BANLANCE_DETAIL: 'Balance Detail',
   DAPP_DETAIL: 'Detail',
+  DAPP_BILLION: ' Billion',
+  DAPP_MILLION: ' Million',
   // dapp category filter
   DAPP_CATEGORY_COMMON: 'General',
   DAPP_CATEGORY_BUSINESS: 'Business',
@@ -240,7 +242,7 @@ window.Translations['en-us'] = {
   ERR_NO_SECND_PASSWORD: 'You must enter the secondary password',
   ERR_TWO_INPUTS_NOT_EQUAL: 'The two inputs are not equal',
   ERR_PASSWORD_INVALID_FORMAT: 'Incorrect password format',
-  ERR_AT_LEAST_SELECT_ONE_DELEGATE: 'Please select one at least',
+  ERR_AT_LEAST_SELECT_ONE_DELEGATE: 'Please select at least one delegate',
   ERR_DELETE_NO_MORE_THAN_33: 'Remove up to 33 delegates at a time',
   ERR_VOTE_NO_MORE_THAN_33: 'Vote for up to 33 candidates at a time',
   ERR_POSITIONLOCK_EMPTY: 'Please type in',
@@ -295,7 +297,7 @@ window.Translations['en-us'] = {
 
   DAPP_SUPPORT_COIN: 'Support Coin',
   DAPP_COIN_TOTAL_AMOUNT: 'Total Amount',
-  DAPP_COIN_CURRENT_QUANTITY: 'Current Quantity',
+  DAPP_COIN_CURRENT_QUANTITY: 'Quantity',
   DAPP_COIN_BALANCE: 'DAPP Balance',
   DAPP_COIN_FEE: 'Fee: 0.1 XAS',
 

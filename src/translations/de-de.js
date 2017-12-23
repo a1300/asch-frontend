@@ -55,6 +55,8 @@ window.Translations['de-de'] = {
   DAPP_DEPOSIT: 'Einzahlen',
   DAPP_BANLANCE_DETAIL: 'Saldo Detail',
   DAPP_DETAIL: 'Detail',
+  DAPP_BILLION: ' Milliarde(n)',
+  DAPP_MILLION: ' Million(en)',
   // dapp category filter
   DAPP_CATEGORY_COMMON: 'Allgemein',
   DAPP_CATEGORY_BUSINESS: 'Business',
@@ -287,9 +289,9 @@ window.Translations['de-de'] = {
   DEPOSIT_FEES: 'Einzahlungsgebühren',
   DEPOSIT_SUCCESS: 'Einzahlung erfolgreich',
 
-  DAPP_SUPPORT_COIN: 'Unterstützte Coins',
+  DAPP_SUPPORT_COIN: 'Coins',
   DAPP_COIN_TOTAL_AMOUNT: 'Summe',
-  DAPP_COIN_CURRENT_QUANTITY: 'Derzeitige Anzahl',
+  DAPP_COIN_CURRENT_QUANTITY: 'Anzahl',
   DAPP_COIN_BALANCE: 'DAPP Saldo',
   DAPP_COIN_FEE: 'Gebühr: 0.1 XAS',
 

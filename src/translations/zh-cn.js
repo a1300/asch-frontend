@@ -52,6 +52,8 @@ window.Translations['zh-cn'] = {
   DAPP_DEPOSIT: '充值',
   DAPP_BANLANCE_DETAIL: '余额详情',
   DAPP_DETAIL: '详情',
+  DAPP_BILLION: '亿',
+  DAPP_MILLION: '万',
   // dapp category filter
   DAPP_CATEGORY_COMMON: '通用',
   DAPP_CATEGORY_BUSINESS: '商业',
