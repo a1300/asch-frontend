@@ -152,6 +152,9 @@ window.Translations['en-us'] = {
   ADD_LIST:'Add List',
   CURRENT_LIST:'Current List',
   UPDATE_ACL:'Update ACL',
+  PUBLISHER_ALREADY_REGISTERED: 'You have already registered this publisher',
+  NO_ASSET_RELATED_INFORMATION: 'No asset related information',
+  STRATEGY_WARNING: 'If you do not know how to use it, do not arbitrarily set this field',
   // personal
   ACCOUNT_INFO: 'Account Info',
   ACCOUNT_LOCK_TIP: 'Unlock after the blockheight reach this number',
@@ -245,6 +248,8 @@ window.Translations['en-us'] = {
   ERR_INVALID_REMARK: 'Ensure your remark is right',
   ERR_NO_BALANCE: 'No balance, Please Deposit',
   ERR_NO_DEPOSIT_COIN: 'No choose coin, Please Choose',
+  ERR_PUBLISHER_NOT_EMPTY: 'You must enter the publishers name and description',
+  ERR_NO_PUBLISHER_REGISTERED_YET: 'You have not registered a publisher yet',
 
   // toast info
   INF_REGISTER_SUCCESS: 'Register success !',
@@ -254,6 +259,9 @@ window.Translations['en-us'] = {
   INF_VOTE_SUCCESS: 'Vote success !',
   INF_SECND_PASSWORD_SET_SUCCESS: 'Second secret set success !',
   INF_POSITIONLOCK_SET_SUCCESS: 'Set the position lock successfully !',
+
+  // dialog
+  OPERATION_REQUIRES_FEE: 'This operation requires a fee of',
 
   ALLOW_WWB: 'Allow Writeoff/Whitelist/Blacklist',
   ALLOW_WRITEOFF: 'Allow Writeoff',
@@ -284,7 +292,7 @@ window.Translations['en-us'] = {
   DAPP_COIN_TOTAL_AMOUNT: 'Total Amount',
   DAPP_COIN_CURRENT_QUANTITY: 'Current Quantity',
   DAPP_COIN_BALANCE: 'DAPP Balance',
-  DAPP_COIN_FEE: 'Fee: 0.1 xas',
+  DAPP_COIN_FEE: 'Fee: 0.1 XAS',
 
 
   // adjusting time

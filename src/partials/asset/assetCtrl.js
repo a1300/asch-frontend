@@ -108,16 +108,17 @@ angular.module('asch').controller('assetCtrl', function ($scope, $rootScope, api
         $scope.operationRecord = false;
         userService.saveTab(2);
     };
-    //注册发行商
+    //注册发行商 
+    //registered Publisher
     $scope.registerPublish = function () {
         if(userService.issuerStatus){
-            toastError('你已经注册了发行商');
+            toastError($translate.instant('PUBLISHER_ALREADY_REGISTERED'));
             return false;
         }
         var name = $scope.monname;
         var desc = $scope.mondesc;
         if(!$scope.monname || !$scope.mondesc){
-            return toastError('必须输入发行商名称以及描述');
+            return toastError($translate.instant('ERR_PUBLISHER_NOT_EMPTY'));
         }
 
         if (!userService.secondPublicKey) {
@@ -138,9 +139,10 @@ angular.module('asch').controller('assetCtrl', function ($scope, $rootScope, api
         userService.saveTab(3);
     };
     //注册资产
+    //Registered Assets
     $scope.registerAsset = function () {
         if(!userService.issuerStatus){
-            toastError('你还没有注册发行商');
+            toastError($translate.instant('ERR_NO_PUBLISHER_REGISTERED_YET'));
             return false;
         }
         var reg = /^[A-Z]{3,6}$/;
