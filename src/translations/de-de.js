@@ -244,6 +244,11 @@ window.Translations['de-de'] = {
   ERR_NO_DEPOSIT_COIN: 'Es wurde kein Coin ausgewählt, bitte wähle einen aus',
   ERR_PUBLISHER_NOT_EMPTY: 'Der Name des Herausgebers sowie die Beschreibung darf nicht leer sein',
   ERR_NO_PUBLISHER_REGISTERED_YET: 'Es wurde noch kein Herausgeber registriert',
+  ERR_ASSET_NAME_3_TO_6_CAPITAL_LETTERS: 'Der Asset-Name muss aus 3-6 Großbuchstaben bestehen',
+  ERR_MISSING_ASSET_DESCRIPTION: 'Die Asset-Beschreibung darf nicht leer sein',
+  ERR_ASSET_TOPLIMIT_NOT_CORRECT: 'Das eingegebene Top-Limit ist keine gültige Eingabe',
+  ERR_ASSET_PRECISION_NOT_CORRECT: 'Die Eingabe für die Genauigkeit des Assets ist nicht korrekt',
+  ERR_ASSET_PRECISION_MUST_BE_INTEGER_BETWEEN_0_16: 'Die Genauigkeit muss ein Integer zwischen 0 und 16 sein',
 
   // toast info
   INF_REGISTER_SUCCESS: 'Erfolgreich registriert!',

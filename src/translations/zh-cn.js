@@ -242,6 +242,11 @@ window.Translations['zh-cn'] = {
   ERR_NO_DEPOSIT_COIN: '请选择充值的币种',
   ERR_PUBLISHER_NOT_EMPTY: '必须输入发行商名称以及描述',
   ERR_NO_PUBLISHER_REGISTERED_YET: '你还没有注册发行商',
+  ERR_ASSET_NAME_3_TO_6_CAPITAL_LETTERS: '请输入3-6位大写字母',
+  ERR_MISSING_ASSET_DESCRIPTION: '请输入资产描述',
+  ERR_ASSET_TOPLIMIT_NOT_CORRECT: '您输入的发行上限不正确',
+  ERR_ASSET_PRECISION_NOT_CORRECT: '您输入的资产精度不正确',
+  ERR_ASSET_PRECISION_MUST_BE_INTEGER_BETWEEN_0_16: '精度必须为0-16的整数',
 
   // toast info
   INF_REGISTER_SUCCESS: '注册成功',

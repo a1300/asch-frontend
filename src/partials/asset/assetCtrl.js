@@ -147,7 +147,7 @@ angular.module('asch').controller('assetCtrl', function ($scope, $rootScope, api
         }
         var reg = /^[A-Z]{3,6}$/;
         if(!reg.test($scope.publishName)){
-            toastError('请输入3-6位大写字母');
+            toastError($translate.instant('ERR_ASSET_NAME_3_TO_6_CAPITAL_LETTERS'));
             return false;
         }
         var name = $scope.monname +'.'+ $scope.publishName;
@@ -156,16 +156,16 @@ angular.module('asch').controller('assetCtrl', function ($scope, $rootScope, api
         var precision = Number($scope.precision);
         var strategy = $scope.strategy;
         if (!desc) {
-            return toastError('请输入资产描述');
+            return toastError($translate.instant('ERR_MISSING_ASSET_DESCRIPTION'));
         }
         if (!parseInt(maximum)) {
-            return toastError('您输入的发行上限不正确');
+            return toastError($translate.instant('ERR_ASSET_TOPLIMIT_NOT_CORRECT'));
         }
         if (!precision ||precision < 0 || precision > 16) {
-            return toastError('您输入的资产精度不正确');
+            return toastError($translate.instant('ERR_ASSET_PRECISION_NOT_CORRECT'));
         }
         if (String($scope.precision).indexOf('.') != -1) {
-            return toastError('精度必须为0-16的整数');
+            return toastError($translate.instant('ERR_ASSET_PRECISION_MUST_BE_INTEGER_BETWEEN_0_16'));
         }
         if (!userService.secondPublicKey) {
             $scope.rasecondPassword = '';
