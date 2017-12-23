@@ -144,6 +144,9 @@ window.Translations['zh-cn'] = {
   ADD_LIST: '新增名单',
   CURRENT_LIST: '当前名单',
   UPDATE_ACL: '更新ACL',
+  PUBLISHER_ALREADY_REGISTERED: '你已经注册了发行商',
+  NO_ASSET_RELATED_INFORMATION: '没有资产相关信息',
+  STRATEGY_WARNING: '如果不懂如何使用，不要随意设置该字段',
   // personal
   ACCOUNT_INFO: '账户信息',
   ACCOUNT_LOCK_TIP: '在到达此高度后解锁',
@@ -237,6 +240,13 @@ window.Translations['zh-cn'] = {
   ERR_INVALID_REMARK: '备注输入内容不正确',
   ERR_NO_BALANCE: '余额不足，请先充值',
   ERR_NO_DEPOSIT_COIN: '请选择充值的币种',
+  ERR_PUBLISHER_NOT_EMPTY: '必须输入发行商名称以及描述',
+  ERR_NO_PUBLISHER_REGISTERED_YET: '你还没有注册发行商',
+  ERR_ASSET_NAME_3_TO_6_CAPITAL_LETTERS: '请输入3-6位大写字母',
+  ERR_MISSING_ASSET_DESCRIPTION: '请输入资产描述',
+  ERR_ASSET_TOPLIMIT_NOT_CORRECT: '您输入的发行上限不正确',
+  ERR_ASSET_PRECISION_NOT_CORRECT: '您输入的资产精度不正确',
+  ERR_ASSET_PRECISION_MUST_BE_INTEGER_BETWEEN_0_16: '精度必须为0-16的整数',
 
   // toast info
   INF_REGISTER_SUCCESS: '注册成功',
@@ -253,6 +263,9 @@ window.Translations['zh-cn'] = {
   ALLOW_BLACKLIST: '是否允许黑名单',
   ALLOW: '允许',
   NOT_ALLOW: '不允许',
+
+  //dialog
+  OPERATION_REQUIRES_FEE: '该操作需要消耗手续费',
 
   // FRAGIL SET
   FRAGIL_PRE: '账户将在区块高度大于 ',
